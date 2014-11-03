@@ -1,0 +1,41 @@
+.content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.loader {
+  text-align: center;
+}
+
+div.loader::before {
+  content: 'Подождите...'
+}
+
+.loader-form {
+  width: 400px;
+  margin: 200px auto 0;
+}
+
+#form-selector {
+  width: 400px;
+  margin: 200px auto 0;
+}
+
+#form-selector td:first-child {
+  width: 150px;
+}
+
+#form-selector > table {
+  width: 100%;
+}
+
+.result-placeholder {
+  text-align: center;
+  color: #cacaca;
+}
+
